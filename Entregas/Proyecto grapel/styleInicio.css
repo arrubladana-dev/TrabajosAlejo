@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    color: #fff;
+}
+.imagen{
+    width: 100vw;
+    height: 600px;
+    background-image: url(./imagenes/cabecera.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorCabeza{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(6, 6, 46);
+    border-bottom: 4px solid rgb(72, 72, 179);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.centararTex{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 3rem;
+}
+.derecha{
+    display: flex;
+    justify-content: space-around;
+}
+.decorar :hover{
+    color: rgb(72, 72, 179) ;
+}
+a{
+    margin: 0 10px 0 10px;
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    font-size: 1.8rem;
+}
+span{
+    color: rgb(0, 119, 255);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.contenedorInput{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(6, 6, 46);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.separar{
+    margin: 0 10px 0 10px;
+}
+input{
+    color: rgb(174, 180, 185);
+}
+button{
+    padding: 8px;
+    cursor: pointer;
+    background-color: #ff7300;
+    transition: all 0.3s ease;
+}
+button:hover{
+    transform: scale(0.90); 
+    background: #ff0000;
+}
+.inpuy:focus{
+    background-color: #7a91ac96;
+    color: #fff;
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.organizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color{
+    margin-top: 16px;
+    color: #222;
+}
+footer{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(63, 63, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
