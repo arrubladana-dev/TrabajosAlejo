@@ -1,10 +1,10 @@
 function agregar() {
     const inputTexto = document.getElementById("texto1");
-    const selectEstado = document.getElementById("escoger");
+    const seleccionar = document.getElementById("escoger");
     const contenedor = document.getElementById("agreTexto");
 
     const texto = inputTexto.value;
-    const estado = selectEstado.value;
+    const estado = seleccionar.value;
 
     const tarjeta = document.createElement("div");
     tarjeta.className = "targeta";
@@ -22,3 +22,4 @@ function agregar() {
     contenedor.appendChild(tarjeta);
     inputTexto.value = "";
 }
+
